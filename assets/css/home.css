@@ -256,6 +256,10 @@ header{
     top: 0;
     width: 100%;
     left: 0;
+    height: 100%;
+}
+.banner-liners img{
+    width: 100%;
 }
 .banner-title{
     position: relative;
@@ -531,7 +535,9 @@ header{
     left: 421px;
     top: 0;
 }
-
+.edit-wish-pik{
+    margin-top: -1px;
+}
 .start-idea{
     max-width: 530px;
     width: 100%;
@@ -670,7 +676,11 @@ header{
 .btn-white:hover{
     background: #e2e4e7;
 }
-
+@media (max-width: 1499px){
+    .banner-liners {
+        height: auto;
+    }
+}
 
 @media (max-width: 1199px){
     .create-quickly-wrap h3 {
@@ -792,6 +802,7 @@ header{
     }
     .create-quickly-logos {
         margin-top: 32px;
+        padding: 0 32px;
     }
     .create-quickly-logos ul{
         flex-wrap: wrap;
@@ -801,6 +812,43 @@ header{
     .standards-info {
         margin-top: 37px;
         max-width: 634px;
+    }
+    .create-quickly-logos ul li:nth-child(1){
+        width: 35px;
+    }
+
+    .create-quickly-logos ul li:nth-child(2){
+        width: 47px;
+    }
+
+    .create-quickly-logos ul li:nth-child(3){
+        width: 31px;
+    }
+
+    .create-quickly-logos ul li:nth-child(4){
+        width: 34px;
+    }
+
+    .create-quickly-logos ul li:nth-child(5){
+        width: 46px;
+    }
+
+    .create-quickly-logos ul li:nth-child(6){
+        width: 30px;
+    }
+
+    .create-quickly-logos ul li:nth-child(7){
+        width: 30px;
+    }
+    .create-quickly-logos ul li:nth-child(8){
+        width: 32px;
+    }
+    .create-quickly-logos ul li:nth-child(9){
+        width: 76px;
+    }
+    .create-quickly-logos ul {
+        max-width: 276px;
+        margin: 0 auto;
     }
     h2 {
         font-size: 30px;
@@ -907,6 +955,9 @@ header{
     }
     .from-idea-info {
         max-width: 100%;
+    }
+    .from-idea {
+        margin-top: 60px;
     }
 }
 /*==============-from-idea-style-end-==============*/
